@@ -26,7 +26,7 @@ options.forEach(option=>option.addEventListener("click",(e)=>{
         userOption = e.target.id;
         machineOption = computerPlay();
         writeEffect(results,playRound(userOption,machineOption));
-        imageComputer.setAttribute("src",`../resources/${machineOption}.jpg`);
+        imageComputer.setAttribute("src",`resources/${machineOption}.jpg`);
         userPointsShow.textContent=`User points: ${userPoints}`;
         machinePointsShow.textContent=`Machine points: ${computerPoints}`;
         results.textContent="";
