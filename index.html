@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <title>Rock, Paper or Scissors</title>
+
+</head>
+<body>
+    <main>
+        <img src="resources/background.jpg">  
+        <div class="game">
+            <div class="player-display">
+                <span class="user-points">User points: 0</span>
+                <div class="player-options">
+                    <input id="rock" type="image" src="resources/rock.jpg">
+                    <input id="paper" type="image" src="resources/paper.jpg">
+                    <input id="scissors" type="image" src="resources/scissors.jpg">
+                </div>
+            </div>
+            <div class="results">
+                <p id="finish-result"></p>
+                <input class="retry" type="image" src="resources/refresh(1).png">
+                <p id="round-result"></p>   
+            </div>
+            <div class="computer-display">
+                <span class="machine-points">Machine points: 0</span>
+                <div class="computer-options">
+                    <image id="option-computer" src="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

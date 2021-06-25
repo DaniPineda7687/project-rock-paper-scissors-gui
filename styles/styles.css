@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Stencil Display';
+
+}
+html{
+    font-size: 10px;
+}
+main img{
+    width: 100%;
+    height: 99vh;
+}
+.game{
+    display: flex;
+    position: absolute;
+    top: 0;
+    max-width: 100vw;
+}
+.player-display{
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+    text-align: center;
+}
+.player-display span{
+    margin: 1rem;
+    font-size: 4rem;
+}
+.player-options input{
+    width: 10rem;
+    height: 10rem;
+    margin-right: 2rem;
+
+} 
+.player-options input:hover{
+    transform: scale(1.1);
+}
+.computer-display{
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+    text-align: center;
+}
+.computer-display span{
+    margin: 1rem;
+    font-size: 4rem;
+}
+.computer-options{
+    border: none;
+}
+.computer-options img{
+    width: 10rem;
+    height: 10rem;
+    border: none;
+}
+.results{
+    width: 20vw;
+    height: 100vh;
+    color: #ffffff;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.retry{
+    width: 5rem;
+    height: 5rem;
+    margin-top: 2rem;
+    align-self: center;
+}
