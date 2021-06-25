@@ -25,11 +25,10 @@ options.forEach(option=>option.addEventListener("click",(e)=>{
     if(count<5){
         userOption = e.target.id;
         machineOption = computerPlay();
-        writeEffect(results,playRound(userOption,machineOption));
+        results.textContent=playRound(userOption,machineOption);
         imageComputer.setAttribute("src",`resources/${machineOption}.jpg`);
         userPointsShow.textContent=`User points: ${userPoints}`;
         machinePointsShow.textContent=`Machine points: ${computerPoints}`;
-        results.textContent="";
         count++;
         isFinish();
     }
